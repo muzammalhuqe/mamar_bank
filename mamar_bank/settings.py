@@ -125,7 +125,7 @@ DATABASES = {
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgres://mamar_bank_mkvv_user:MCopmpAGUYvhxecOP5YD4zIMQi4adp8j@dpg-cme4csun7f5s73f420q0-a.oregon-postgres.render.com/mamar_bank_mkvv',
+        default='postgres://mamar_bank_7wjm_user:X1h9pC1Ghz7Qr4BZ0upxOURdkKcfDE8x@dpg-cmedk0f109ks73c4aebg-a.oregon-postgres.render.com/mamar_bank_7wjm',
 
     )
 }
