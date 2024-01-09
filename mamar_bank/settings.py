@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-*p4#3n$&4($^#xomcfs&m7m*t_9hid%ajvl1qals^d6(t=%#2@
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://mamar-bank.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
@@ -126,7 +126,6 @@ DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
         default='postgres://mamar_bank_7wjm_user:X1h9pC1Ghz7Qr4BZ0upxOURdkKcfDE8x@dpg-cmedk0f109ks73c4aebg-a.oregon-postgres.render.com/mamar_bank_7wjm',
-
     )
 }
 
